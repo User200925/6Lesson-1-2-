@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Public Sans", serif;
+}
+.header{
+    margin: 61px auto 0 auto;
+    width: 1440px;
+    display: flex;
+    height: 42px;
+    justify-content: space-between;
+}
+.header-content{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.button-box{
+    width: 283.77px;
+    height: 41.34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button{
+    width: 131.77px;
+    height: 41.34px;
+    display: flex;
+    border-radius: 6px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    
+    margin: 79.66px auto 217px auto; 
+    width: 1440px;
+    height: 432.5px;
+    display: flex;
+    justify-content: center;
+}
+.section-content{
+    width: 1300px;
+    height: 432.5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.text-section{
+    width: 426px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-section h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+.text-section p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.button2{
+    width: 195px;
+    height: 53px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 50px;
+    align-content: center;
+    background-color: #FA8305;
+    border: none;
+}
+
+
+/* LightMode стили */
+.light-mode {
+    background-color: #C4B5A5;
+    color: #000;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* DarkMode стили */
+.dark-mode {
+    background-color: #020100;
+    color: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
